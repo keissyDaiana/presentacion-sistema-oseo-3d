@@ -63,6 +63,7 @@ Autor: Bernhard Ungerer
 Licencia: Creative Commons Attribution 3.0 (CC BY 3.0)
 Ficha: https://commons.wikimedia.org/wiki/File:3D_Female_Skeleton_Anatomy.png
 Imagen: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/3D_Female_Skeleton_Anatomy.png/960px-3D_Female_Skeleton_Anatomy.png
+Archivo local: esqueleto-femenino-3d.png
 Uso: diapositivas 4 y 7
 
 Femur - animation (modelo 3D animado)
@@ -70,6 +71,7 @@ Autor: Anatomography
 Licencia: Creative Commons Attribution-ShareAlike 2.1 Japón (CC BY-SA 2.1 jp)
 Ficha: https://commons.wikimedia.org/wiki/File:Femur_-_animation.gif
 Imagen: https://upload.wikimedia.org/wikipedia/commons/a/a2/Femur_-_animation.gif
+Archivo local: femur-animado.gif
 Uso: diapositivas 11 y 20
 
 Human humerus 1 (modelo 3D)
@@ -77,6 +79,7 @@ Autor: Eric Bauer y el laboratorio de anatomía humana con donantes de Elon Univ
 Licencia: Creative Commons Attribution 4.0 (CC BY 4.0)
 Ficha: https://commons.wikimedia.org/wiki/File:Human_humerus_1.stl
 Imagen: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Human_humerus_1.stl/960px-Human_humerus_1.stl.png
+Archivo local: humero-3d.png
 Uso: diapositiva 19
 
 BodyParts3D FJ3154 Tenth thoracic vertebra (modelo 3D)
@@ -84,6 +87,7 @@ Autor: Database Center for Life Science (DBCLS)
 Licencia: Creative Commons Attribution-ShareAlike 2.1 Japón (CC BY-SA 2.1 jp)
 Ficha: https://commons.wikimedia.org/wiki/File:BodyParts3D_FJ3154_Tenth_thoracic_vertebra.stl
 Imagen: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/BodyParts3D_FJ3154_Tenth_thoracic_vertebra.stl/960px-BodyParts3D_FJ3154_Tenth_thoracic_vertebra.stl.png
+Archivo local: vertebra-t10-3d.png
 Uso: diapositiva 17
 
 Acetabulum 04 lateral view (Right hip bone) (modelo 3D)
@@ -91,10 +95,11 @@ Autor: BodyParts3D / Database Center for Life Science (DBCLS)
 Licencia: Creative Commons Attribution-ShareAlike 2.1 Japón (CC BY-SA 2.1 jp)
 Ficha: https://commons.wikimedia.org/wiki/File:Acetabulum_04_lateral_view_(Right_hip_bone).png
 Imagen: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Acetabulum_04_lateral_view_%28Right_hip_bone%29.png/960px-Acetabulum_04_lateral_view_%28Right_hip_bone%29.png
+Archivo local: acetabulo-3d.png
 Uso: diapositiva 21
 
 Las vistas previas de los modelos se presentan como imágenes 2D de objetos tridimensionales; no son modelos 3D manipulables dentro del navegador. Las atribuciones y licencias pertenecen a cada recurso original. Comprueba la ficha fuente para los términos vigentes si reutilizas estos archivos fuera de esta presentación.
-Las cinco imágenes añadidas desde Wikimedia Commons se muestran mediante sus URL públicas y requieren conexión a Internet. Las imágenes anteriores permanecen disponibles localmente.
+Las cinco imágenes se incluyen como archivos locales para que la presentacion funcione sin conexion a Internet.
 
 IMÁGENES DE LAS DIAPOSITIVAS NUEVAS 38–41
 
@@ -130,13 +135,14 @@ Imagen original: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/624_Di
 Archivo local: diagrama-hueso-compacto.jpg
 Uso: diapositiva 41
 
-IMÁGENES NUEVAS DE INTERNET · DIAPOSITIVAS 42–46
+IMÁGENES DESCARGADAS · DIAPOSITIVAS 42–46
 
 Cervical vertebra 2 close-up top animation (axis, C2; modelo 3D animado)
 Autor: Anatomography
 Licencia: Creative Commons Attribution-ShareAlike 2.1 Japón (CC BY-SA 2.1 jp)
 Ficha: https://commons.wikimedia.org/wiki/File:Cervical_vertebra_2_close-up_top_animation.gif
 Imagen: https://upload.wikimedia.org/wikipedia/commons/e/ed/Cervical_vertebra_2_close-up_top_animation.gif
+Archivo local: vertebra-cervical-c2-animada.gif
 Uso: diapositiva 42
 
 Anatomy and physiology of animals Synovial joint (articulación sinovial)
@@ -144,6 +150,7 @@ Ilustración: Ruth Lawson, Otago Polytechnic; archivo transferido desde English 
 Licencia: Creative Commons Attribution 3.0 (CC BY 3.0)
 Ficha: https://commons.wikimedia.org/wiki/File:Anatomy_and_physiology_of_animals_Synovial_joint.jpg
 Imagen: https://upload.wikimedia.org/wikipedia/commons/7/7e/Anatomy_and_physiology_of_animals_Synovial_joint.jpg
+Archivo local: articulacion-sinovial.jpg
 Uso: diapositiva 43
 
 Bone regeneration - Bone remodeling cycle 2 (remodelación ósea)
@@ -151,6 +158,7 @@ Autor: Laboratoires Servier / Smart Servier Medical Art
 Licencia: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)
 Ficha: https://commons.wikimedia.org/wiki/File:Bone_regeneration_-_Bone_remodeling_cycle_2_-_Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--_Smart-Servier.png
 Imagen: https://upload.wikimedia.org/wikipedia/commons/6/6f/Bone_regeneration_-_Bone_remodeling_cycle_2_-_Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--_Smart-Servier.png
+Archivo local: remodelacion-osea.png
 Uso: diapositiva 44
 
 Fracture repair (reparación ósea)
@@ -158,6 +166,7 @@ Autor: Laboratoires Servier / Smart Servier Medical Art
 Licencia: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)
 Ficha: https://commons.wikimedia.org/wiki/File:Fracture_repair_--_Smart-Servier.jpg
 Imagen: https://upload.wikimedia.org/wikipedia/commons/a/a9/Fracture_repair_--_Smart-Servier.jpg
+Archivo local: reparacion-fractura.jpg
 Uso: diapositiva 45
 
 Skeleton-2632153 (modelo anatómico de esqueleto con inserciones musculares)
@@ -165,6 +174,7 @@ Autor: FotoEmotions
 Licencia: CC0, dedicación al dominio público
 Ficha: https://commons.wikimedia.org/wiki/File:Skeleton-2632153.jpg
 Imagen: https://upload.wikimedia.org/wikipedia/commons/9/95/Skeleton-2632153.jpg
+Archivo local: esqueleto-inserciones-musculares.jpg
 Uso: diapositiva 46
 
 LECTURAS ACADÉMICAS

@@ -450,11 +450,11 @@ const corePlacements = [
 ];
 
 const visualAssets = {
-  femaleSkeleton:"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/3D_Female_Skeleton_Anatomy.png/960px-3D_Female_Skeleton_Anatomy.png",
-  femur:"https://upload.wikimedia.org/wikipedia/commons/a/a2/Femur_-_animation.gif",
-  vertebraT10:"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/BodyParts3D_FJ3154_Tenth_thoracic_vertebra.stl/960px-BodyParts3D_FJ3154_Tenth_thoracic_vertebra.stl.png",
-  humerus:"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Human_humerus_1.stl/960px-Human_humerus_1.stl.png",
-  acetabulum:"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Acetabulum_04_lateral_view_%28Right_hip_bone%29.png/960px-Acetabulum_04_lateral_view_%28Right_hip_bone%29.png"
+  femaleSkeleton:"esqueleto-femenino-3d.png",
+  femur:"femur-animado.gif",
+  vertebraT10:"vertebra-t10-3d.png",
+  humerus:"humero-3d.png",
+  acetabulum:"acetabulo-3d.png"
 };
 
 const coreSpeakerNotes = new Map([
@@ -1018,7 +1018,7 @@ const additionalSlides = [
     title:"¡Gracias!",emphasis:"El esqueleto también cuenta tu historia.",
     subtitle:"Explora la ilustración y recuerda cómo estructura, movimiento y vida se conectan.",
     description:"Gracias, profesora y estudiantes, por acompañar este recorrido por el sistema óseo. Pulsa cada punto del esqueleto para repasar una idea clave y compartir una reflexión final.",
-    image:"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Skeleton-2632153.jpg/960px-Skeleton-2632153.jpg",
+    image:"esqueleto-inserciones-musculares.jpg",
     alt:"Modelo anatómico fotográfico de un esqueleto humano con referencias de inserciones musculares",
     caption:"GRACIAS · ESTRUCTURA · MOVIMIENTO · VIDA",
     note:"Selecciona los puntos de la ilustración para abrir cada recuerdo anatómico.",
@@ -1044,7 +1044,7 @@ const additionalSlides = [
     title:"El axis",emphasis:"permite rotar la cabeza.",
     subtitle:"La segunda vértebra cervical forma un pivote para el movimiento de rotación.",
     description:"El axis (C2) se reconoce por la apófisis odontoides o dens, que se proyecta hacia el atlas (C1). Junto con ligamentos especializados, este pivote permite gran parte de la rotación de la cabeza y mantiene protegido el conducto vertebral.",
-    image:"https://upload.wikimedia.org/wikipedia/commons/e/ed/Cervical_vertebra_2_close-up_top_animation.gif",
+    image:"vertebra-cervical-c2-animada.gif",
     alt:"Animación tridimensional superior de la segunda vértebra cervical humana, el axis",
     caption:"AXIS · C2 · MODELO 3D ANIMADO",
     note:"La apófisis odontoides del axis actúa como pivote de rotación dentro del atlas.",
@@ -1067,7 +1067,7 @@ const additionalSlides = [
     title:"Una articulación sinovial",emphasis:"reduce fricción y permite movilidad.",
     subtitle:"Cavidad, líquido, cartílago y cápsula cooperan para facilitar el movimiento.",
     description:"En una articulación sinovial, las superficies óseas recubiertas de cartílago hialino se enfrentan a través de una cavidad articular. La membrana sinovial produce líquido sinovial; la cápsula fibrosa y los ligamentos aportan contención y estabilidad.",
-    image:"https://upload.wikimedia.org/wikipedia/commons/7/7e/Anatomy_and_physiology_of_animals_Synovial_joint.jpg",
+    image:"articulacion-sinovial.jpg",
     alt:"Diagrama anatómico en corte de una articulación sinovial",
     caption:"ARTICULACIÓN SINOVIAL · ESTRUCTURAS Y MOVILIDAD",
     note:"El cartílago articular recubre las superficies; el líquido sinovial está dentro de la cavidad.",
@@ -1090,7 +1090,7 @@ const additionalSlides = [
     title:"El hueso se remodela",emphasis:"con células especializadas.",
     subtitle:"La resorción y la formación se acoplan para renovar la matriz.",
     description:"Los osteoclastos degradan matriz mineralizada durante la resorción. Después, osteoblastos producen osteoide y favorecen su mineralización; algunos quedan incorporados como osteocitos. El equilibrio se adapta a señales hormonales y cargas mecánicas.",
-    image:"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Bone_regeneration_-_Bone_remodeling_cycle_2_-_Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--_Smart-Servier.png/960px-Bone_regeneration_-_Bone_remodeling_cycle_2_-_Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--_Smart-Servier.png",
+    image:"remodelacion-osea.png",
     alt:"Ilustración biomédica de células implicadas en la remodelación ósea: osteoclastos, osteoblastos y osteocitos",
     caption:"REMODELACIÓN ÓSEA · CÉLULAS Y MATRIZ",
     note:"La renovación depende del acoplamiento entre resorción por osteoclastos y formación por osteoblastos.",
@@ -1113,7 +1113,7 @@ const additionalSlides = [
     title:"Reparar una fractura",emphasis:"es un proceso gradual.",
     subtitle:"La consolidación pasa por fases superpuestas de reparación y remodelación.",
     description:"Tras la fractura se forma un hematoma y se inicia la respuesta inflamatoria. Luego aparece un callo blando fibrocartilaginoso, que da paso a un callo óseo; finalmente el tejido se remodela según las cargas. El tiempo y el resultado dependen de la lesión y de la persona.",
-    image:"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Fracture_repair_--_Smart-Servier.jpg/960px-Fracture_repair_--_Smart-Servier.jpg",
+    image:"reparacion-fractura.jpg",
     alt:"Ilustración médica de la reparación de una fractura ósea y sus fases",
     caption:"REPARACIÓN ÓSEA · DE LA FRACTURA A LA REMODELACIÓN",
     note:"Las fases se solapan; no constituyen una secuencia instantánea ni igual para todas las fracturas.",

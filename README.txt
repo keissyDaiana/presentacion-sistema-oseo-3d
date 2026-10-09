@@ -56,3 +56,13 @@ PERSONALIZACIÓN
 - Colores y adaptación a pantalla: styles.css.
 - El material es educativo y no sustituye indicaciones del curso ni
   valoraciones de profesionales sanitarios.
+
+USO SIN INTERNET Y COPIA A USB
+------------------------------
+- Todas las imagenes de las diapositivas y el diseno estan guardados localmente.
+- Copia la carpeta completa de la presentacion a una memoria USB.
+- En el equipo de proyeccion, abre la carpeta y haz doble clic en index.html.
+- Usa un navegador actualizado; no se necesita instalar programas ni tener
+  conexion a Internet para mostrar las diapositivas.
+- Las lecturas y fichas de fuentes son enlaces externos y requieren Internet.
+- Para proyectar a pantalla completa, pulsa F11 en el navegador.
