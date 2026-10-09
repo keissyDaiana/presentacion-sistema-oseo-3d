@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081018">
+  <meta name="description" content="Clase interactiva de seis horas sobre anatomía, estructura, función y salud del sistema esquelético humano, organizada en 46 diapositivas y ocho bloques.">
+  <title>Sistema óseo esquelético | Clase interactiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" id="homeBtn" aria-label="Volver a la portada">
+      <span class="brand-mark" aria-hidden="true">✳</span> OSSA<span class="brand-light">/</span>LAB
+    </a>
+    <div class="top-meta"><span class="live-dot" aria-hidden="true"></span>ANATOMÍA HUMANA <span class="divider">·</span> CLASE INTERACTIVA · 6 H</div>
+    <button class="icon-btn" id="overviewBtn" type="button" aria-expanded="false" aria-controls="overview" aria-label="Abrir índice de diapositivas" title="Índice de diapositivas">☷</button>
+  </header>
+
+  <main>
+    <section class="presentation" id="presentation" aria-live="polite">
+      <div class="chapter-bar">
+        <span class="chapter-label"><span class="eyebrow" id="chapterLabel">BLOQUE 1 · INTRODUCCIÓN AL SISTEMA ÓSEO</span></span>
+        <span class="block-meta" id="blockMeta">BLOQUE 1 DE 8 · 25 MIN</span>
+        <span class="chapter-progress-text" id="chapterProgressText">01 <span>—</span> 46</span>
+      </div>
+      <div class="progress-track" role="progressbar" id="progressTrack" aria-label="Progreso de la presentación" aria-valuemin="1" aria-valuemax="46" aria-valuenow="1"><div id="progressBar"></div></div>
+
+      <div class="lesson-grid" id="lessonGrid">
+        <section class="visual-column" aria-label="Modelo anatómico interactivo">
+          <div class="visual-card" id="visualCard">
+            <div class="visual-backdrop" aria-hidden="true"></div>
+            <div class="visual-topline"><span class="eyebrow">MODELO ANATÓMICO</span><span class="drag-hint" id="dragHint">MUEVE EL CURSOR PARA EXPLORAR</span></div>
+            <div class="image-viewport" id="imageViewport">
+              <img id="heroImage" src="images/portada-esqueleto.webp" alt="Modelo anatómico del esqueleto humano">
+              <div class="image-shade" aria-hidden="true"></div>
+              <div class="hotspots" id="hotspots" aria-label="Puntos interactivos de la imagen"></div>
+              <div class="image-caption"><span class="caption-mark" aria-hidden="true"></span><span id="imageCaption">EL CUERPO, SOSTENIDO DESDE DENTRO</span></div>
+            </div>
+            <div class="hotspot-topics" id="hotspotTopics" role="group" aria-label="Explora los conceptos de esta diapositiva" hidden></div>
+            <div class="visual-controls">
+              <div class="hotspot-legend"><span class="legend-pulse" aria-hidden="true"></span><span>Toca un punto para descubrirlo</span></div>
+              <button class="zoom-btn" id="zoomBtn" type="button" aria-pressed="false" aria-label="Ampliar la imagen">＋ <span>Ampliar</span></button>
+            </div>
+            <p class="hotspot-note" id="hotspotNote" aria-live="polite"></p>
+          </div>
+          <aside class="image-note" id="imageNote" aria-live="polite">
+            <span class="note-index" aria-hidden="true">↳</span>
+            <p id="imageNoteText">Los huesos no son piezas aisladas: forman un sistema conectado.</p>
+          </aside>
+        </section>
+
+        <section class="lesson-copy" aria-labelledby="title">
+          <div class="module-kicker"><span class="module-number" id="moduleNumber">01</span><span class="eyebrow" id="eyebrow">ANATOMÍA · VISIÓN GENERAL</span></div>
+          <h1 id="title">El esqueleto<br><em>es una estructura viva.</em></h1>
+          <p class="subtitle" id="subtitle">Un sistema dinámico de soporte, protección y movimiento.</p>
+          <p class="description" id="description">No es una armadura inerte: los huesos se comunican con otros tejidos, responden a las cargas y cambian durante toda la vida.</p>
+          <div class="chips" id="chips"></div>
+          <div class="chip-explanation" id="chipExplanation" aria-live="polite" hidden>
+            <strong id="chipExplanationTitle"></strong>
+            <p id="chipExplanationText"></p>
+          </div>
+
+          <div class="takeaway" id="takeaway">
+            <span class="takeaway-icon" aria-hidden="true">✳</span>
+            <div><span class="eyebrow" id="takeawayLabel">IDEA CENTRAL</span><p id="takeawayText"></p></div>
+          </div>
+
+          <div class="slide-navigation" aria-label="Navegación entre diapositivas">
+            <button class="nav-btn" id="prevBtn" type="button" aria-label="Diapositiva anterior">← <span>Anterior</span></button>
+            <div class="keyboard-hint"><kbd>←</kbd><kbd>→</kbd><span>para avanzar</span></div>
+            <button class="nav-btn nav-next" id="nextBtn" type="button" aria-label="Diapositiva siguiente"><span>Siguiente</span> <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      </div>
+
+      <section class="details-section" aria-labelledby="detailsTitle">
+        <div class="details-heading">
+          <div><span class="eyebrow" id="detailsEyebrow">PARA ENTENDERLO MEJOR</span><h2 id="detailsTitle">Las ideas que sostienen el tema</h2></div>
+          <a class="source-link" id="sourceLink" href="https://openstax.org/books/anatomy-and-physiology-2e" target="_blank" rel="noopener">Lectura recomendada ↗</a>
+        </div>
+        <div class="detail-grid" id="detailGrid"></div>
+      </section>
+
+      <details class="speaker-notes" id="speakerNotes">
+        <summary>Apoyo para explicar este tema</summary>
+        <p id="speakerNotesText"></p>
+      </details>
+
+      <section class="checkpoint" id="checkpoint" aria-labelledby="questionTitle">
+        <div class="checkpoint-intro">
+          <span class="checkpoint-symbol" aria-hidden="true">?</span>
+          <div><span class="eyebrow">PAUSA Y COMPRUEBA</span><h2 id="questionTitle">¿Qué acabas de descubrir?</h2></div>
+        </div>
+        <p class="question" id="questionText"></p>
+        <div class="answer-list" id="answerList" role="group" aria-label="Opciones de respuesta"></div>
+        <p class="answer-feedback" id="answerFeedback" aria-live="polite"></p>
+      </section>
+
+      <footer class="page-footer"><span>OSSA/LAB <span class="divider">·</span> SISTEMA ESQUELÉTICO</span><a href="images/FUENTES.txt" target="_blank" rel="noopener">Fuentes anatómicas y créditos ↗</a></footer>
+    </section>
+
+    <section class="module-drawer hidden" id="overview" aria-label="Índice de diapositivas">
+      <div class="drawer-head">
+        <div><span class="eyebrow">46 DIAPOSITIVAS · 8 BLOQUES</span><h2>Explora la clase</h2></div>
+        <button class="icon-btn" id="closeOverview" type="button" aria-label="Cerrar índice">✕</button>
+      </div>
+      <label class="module-search"><span>Buscar</span><input id="moduleSearch" type="search" placeholder="Ej.: hueso, articulación…" autocomplete="off"></label>
+      <div class="module-list" id="moduleList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
